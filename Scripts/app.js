@@ -14,7 +14,20 @@ let app;
      */
     function Start()
     {
+      let mainContent = $("#mainContent")
+      console.log(mainContent);
+
+      let mainCont = document.getElementById("#mainContent");
+      console.log(mainCont);
+
+      let mainQuery = document.querySelectorAll("#mainContent")[0];
+      console.log(mainQuery);
+
+      let mainFirstQuery = document.querySelector("#mainContent");
+      console.log(mainQuery);
+
       
+      Main();
     }
 
     /**
